@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 1rem; /* equivalent to gap-4 in Tailwind */
+  margin-top: 2.5rem; /* equivalent to mt-10 in Tailwind */
+  margin: 0 170px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1300px) {
+  .right-sizde-home {
+    display: none;
+  }
+  .left-side-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
