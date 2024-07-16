@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,8 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <Header />
-        <div className="my-4 overflow-hidden h-[10000px]">{children}</div>
+        <div className="my-4 overflow-hidden ">{children}</div>
+        <Footer />
       </body>
     </html>
   );

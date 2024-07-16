@@ -4,10 +4,10 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 1rem; /* equivalent to gap-4 in Tailwind */
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 2rem; /* equivalent to gap-4 in Tailwind */
   margin-top: 2.5rem; /* equivalent to mt-10 in Tailwind */
-  margin: 0 170px;
+  margin: 0 290px;
   margin-top: 50px;
 }
 
@@ -20,4 +20,22 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.cards-our-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  gap: 1rem; /* equivalent to gap-4 in Tailwind */
+  justify-content: center;
+  align-items: center;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

@@ -1,58 +1,71 @@
 import React from "react";
-import { Icon } from "@iconify/react";
+
 function WhyUs() {
   return (
-    <div className="mt-[150px] flex  gap-10 justify-center items-center">
-      <div className="left-why w-[25%]">
-        <p className="font-bold text-4xl">لماذا شركتنا؟</p>
-        <p className="mt-4 opacity-60 font-bold">
-          ونحن ملتزمون بتزويد عملائنا استثنائية الخدمة، والأسعار التنافسية،
-          ومجموعة واسعة من.
+    <div className="h-[800px]  w-full mt-20">
+      <div className="header-whyus flex justify-center ">
+        <p className="h-[42px] text-[#FEA501] w-[117px] bg-[#FFF3DE] rounded-[8px]  flex justify-center items-center">
+          لماذا نحن
         </p>
-        <button className="h-[53px] w-[160px] bg-primary mt-4 rounded-xl">
-          ابدا الان <span>icon</span>
-        </button>
       </div>
-      <div className="right-why  w-[55%] flex flex-wrap gap-6 ">
-        <div className="card-why w-[48%] flex flex-col gap-2">
-          <p>
-            <Icon fontSize={40} icon="mdi-light:home" />
-          </p>
-          <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
-            بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
-            المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
-          </p>
+      <div className="flex gap-28">
+        <div className="left-whuus w-[35%] ">
+          <div className="relative">
+            <img className="h-[800px]" src="/vector2.svg" alt="" />
+            <img className="absolute top-[200px]" src="/audi1.png" alt="" />
+            <img className="absolute top-[500px]" src="/can.png" alt="" />
+          </div>
         </div>
-        <div className="card-why w-[48%]  flex flex-col gap-2">
-          <p>
-            <Icon fontSize={40} icon="mdi-light:home" />
+        <div className="right-whuus w-[65%] pt-28 font-bold">
+          <p className="text-4xl">
+            نحن نعطي الأولوية للجودة والموثوقية ورضا العملاء.
           </p>
-          <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
-            بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
-            المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
-          </p>
-        </div>
-        <div className="card-why w-[48%]  flex flex-col gap-2">
-          <p>
-            <Icon fontSize={40} icon="mdi-light:home" />
-          </p>
-          <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
-            بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
-            المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
-          </p>
-        </div>
-        <div className="card-why w-[48%]  flex flex-col gap-2">
-          <p>
-            <Icon fontSize={40} icon="mdi-light:home" />
-          </p>
-          <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
-            بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
-            المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
-          </p>
+          <div className="content mt-16 flex flex-col gap-24">
+            <div className="content-slice flex gap-10 items-center rounded-xl">
+              <div className="flex justify-center items-center bg-[#FFF3DE] h-[64px] w-[64px]  rounded-xl">
+                <p>icon</p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-2xl font-semibold ">أفضل الأسعار مضمونة</p>
+                <p>العثور على سعر أقل؟ سنرد لك أموالك بنسبة 100% من الفرق.</p>
+              </div>
+            </div>
+            <div className="content-slice flex gap-10 items-center ">
+              <div className="flex justify-center items-center bg-[#FFF3DE] h-[64px] w-[64px] rounded-xl">
+                <p>icon</p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-2xl font-semibold ">أفضل الأسعار مضمونة</p>
+                <p className=" font-bold opacity-70 text-xl">
+                  نحن نقدم مجموعة واسعة من زيوت السيارات وقطع الغيار عالية
+                  الجودة.
+                </p>
+              </div>
+            </div>
+            <div className="content-slice flex gap-10 items-center ">
+              <div className="flex justify-center items-center bg-[#FFF3DE] h-[64px] w-[64px]  rounded-xl">
+                <p>icon</p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-2xl font-semibold ">أفضل الأسعار مضمونة</p>
+                <p className=" font-bold opacity-70 text-xl">
+                  نحن نعطي الأولوية لرضاك عن كل عملية شراء وتفاعل
+                </p>
+              </div>
+            </div>
+            <div className="content-slice flex gap-10 items-center">
+              <div className="flex justify-center items-center bg-[#FFF3DE] h-[64px] w-[64px]  rounded-xl">
+                <p>icon</p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-2xl font-semibold ">أفضل الأسعار مضمونة</p>
+                <p className=" font-bold opacity-70 text-xl">
+                  استكشف مجموعتنا الواسعة من زيوت السيارات المتميزة المصممة
+                  لتحقيق الأداء الأمثل.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
