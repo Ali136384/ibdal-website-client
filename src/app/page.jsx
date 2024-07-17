@@ -1,6 +1,7 @@
 import Accomplishments from "@/components/Accomplishments";
 import CustomersSaied from "@/components/CustomersSaied";
 import Hero from "@/components/Hero";
+import Ibdal from "@/components/Ibdal";
 import OurProducts from "@/components/OurProducts";
 import OurServices from "@/components/OurServices";
 import WhyOurCompany from "@/components/WhyOurCompany";
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyUs />
       <OurProducts />
       <CustomersSaied />
+      <Ibdal />
     </>
   );
 }

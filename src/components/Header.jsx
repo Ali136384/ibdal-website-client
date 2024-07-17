@@ -52,11 +52,11 @@ const Header = () => {
   };
 
   return (
-    <div className="my-4 mx-10 flex flex-row justify-between items-center -z-10 bg-transparent">
+    <div className=" mx-10 flex flex-row justify-between items-center z-[100] bg-transparent">
       <div>
-        <img className="h-[94px] w-[154px]" src="/logo.png" alt="logo" />
+        <img className="h-[94px] w-[154px] z-10" src="/logo.png" alt="logo" />
       </div>
-      <div className="flex flex-row-reverse gap-4">
+      <div className="flex flex-row-reverse gap-4 z-50">
         {headerItems.map((item) => (
           <Link href={`${item.to}`} key={item.id}>
             <p

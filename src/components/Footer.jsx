@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="mt-[100px] h-[375px] w-full bg-[#FFF8EB]">
+    <div className="mt-[100px] h-[375px] w-full bg-[#FFF8EB] ">
       <div className="content-footer flex flex-row justify-center pt-20 mx-[200px] gap-16">
         <div className="slice ">
           <img className="mb-5" src="/logo.png" alt="" />

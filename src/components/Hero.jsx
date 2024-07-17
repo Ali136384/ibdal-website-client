@@ -2,9 +2,9 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex z-40 overflow-hidden ">
+    <div className="flex  overflow-hidden ">
       <img
-        className="z-10 absolute -bottom-[1%] -right-14 overflow-hidden"
+        className=" absolute -bottom-[1%] -right-14 overflow-hidden"
         src="/bgFrameHome.png"
         alt=""
       />
