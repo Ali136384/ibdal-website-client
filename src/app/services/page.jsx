@@ -6,7 +6,7 @@ function page() {
   const [isopen, setIsOpen] = useState(true);
   return (
     <>
-      <div className=" w-full h-screen">
+      <div className="service-container w-full h-screen">
         <img
           className="-z-10 absolute -top-[450px] -left-[250px]"
           src="/Oval.png"
@@ -14,7 +14,7 @@ function page() {
         />
         <div className="content flex gap-6 ">
           <div className="left-serv w-[50%] p-36">
-            <div className="flex flex-col gap-4">
+            <div className="for-lab flex flex-col gap-4">
               <p className="text-4xl font-bold">
                 تغيير زيوت سيارات بجودة ومهنية
               </p>
@@ -23,7 +23,13 @@ function page() {
               </p>
               <p className="text-4xl font-bold">الزيوت الفائقة الجودة</p>
             </div>
-            <div className="flex gap-5 mt-20">
+            <div className="show-mobile-serv hidden  flex-col gap-4">
+              <p className="text-4xl font-bold">
+                تغيير زيوت سيارات بجودة ومهنية عالية، مع توفير مجموعة متنوعة من{" "}
+                الزيوت الفائقة الجودة
+              </p>
+            </div>
+            <div className="buttons-container flex gap-5 mt-20">
               <div className="bg-primary h-[53px] gap-2 w-[180px] flex justify-center items-center rounded-xl">
                 <p className="text-white font-bold text-xl">جميع المنتجات</p>
                 <span>icon</span>
@@ -60,40 +66,48 @@ function page() {
           backgroundImage: "url('/bg3.png')",
           backgroundRepeat: "no-repeat",
         }}
-        className=" mt-[150px] ml-[200px] min-h-[500px] rounded-tl-[45px] rounded-bl-[145px] bg-cover flex mb-20"
+        className="service-goodness-container mt-[150px] ml-[200px] min-h-[500px] rounded-tl-[45px] rounded-bl-[145px] bg-cover flex mb-20"
       >
-        <div className="left flex justify-center items-center w-[50%] h-[300px] flex-col pt-20">
+        <div className="left-service flex justify-center items-center w-[50%] h-[300px] flex-col pt-20">
           <p className=" font-bold text-5xl ">جودة خدماتنا </p>
           <p className=" font-bold text-5xl mt-5">وخبرة متميزة</p>
-          <p className="w-[55%] text-end pt-10 font-bold opacity-80">
+          <p className="w-[55%] serv-text text-end pt-10 font-bold opacity-80">
             نقدم أفضل أنواع الزيوت لمحركات سياراتك، مع التركيز على الجودة
             والأداء العالي. تعتمد خدماتنا على خبرة عميقة في صيانة المركبات لضمان
             سلامة وأداء محسن لمحرك سيارتك
           </p>
         </div>
         <div className="right relative flex gap-8">
-          <div>
-            <img className="mt-3 absolute -top-10" src="/Bitmap.png" alt="" />
+          <div className="images-top">
             <img
-              className="mb-5 mt-24 rounded-3xl"
+              className="Bitmap mt-3 absolute -top-10"
+              src="/Bitmap.png"
+              alt=""
+            />
+            <img
+              className="mb-5 mt-24 rounded-3xl oil-double"
               src="/oilDouble.png"
               alt=""
             />
           </div>
-          <div className="">
+          <div className="bottom-images">
             <img
-              className=" rounded-tr-[90px] rounded-tl-[20px] absolute -top-10 rounded-b-3xl"
+              className="oilTek rounded-tr-[90px] rounded-tl-[20px] absolute -top-10 rounded-b-3xl"
               src="/oilTek.png"
               alt=""
             />
-            <img className=" absolute -bottom-20" src="/stamp2.png" alt="" />
+            <img
+              className="absolute stemp -bottom-20"
+              src="/stamp2.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
 
       <div className="FAQ bg-[#F4F6FA] mt-[200px] mx-[210px] rounded-xl min-h-[500px] relative">
         <div className="header">
-          <div className="flex items-center pt-20 flex-col ">
+          <div className="faq-herader flex items-center pt-20 flex-col ">
             <p className="text-center -16 px-4 rounded-full font-bold text-white bg-primary w-fit">
               FAQ
             </p>

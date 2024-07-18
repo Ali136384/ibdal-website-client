@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.us-container {
+  background-image: url("/us.png");
+  background-repeat: "no-repeat";
+  background-size: "cover";
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -233,5 +238,255 @@
     p {
       font-weight: bold;
     }
+  }
+
+  .service-container {
+    height: auto;
+  }
+  .content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-serv,
+  .right-serv {
+    width: 100%;
+    padding: 50px;
+
+    p {
+      text-align: center;
+    }
+  }
+  .service-goodness-container {
+    margin: 0;
+    margin-left: auto;
+    margin-top: 140px;
+    width: 90%;
+  }
+  .oil-double {
+    width: 70%;
+    margin-top: 0;
+  }
+  .oilTek {
+    position: relative;
+  }
+  .stemp {
+    position: relative;
+  }
+  .bottom-images {
+    display: none;
+  }
+  .images-top {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .Bitmap {
+    width: 70%;
+    right: 0;
+    position: relative;
+  }
+  .left-service {
+    width: 100%;
+  }
+  .serv-text {
+    width: 100%;
+  }
+  .FAQ {
+    border-radius: 50px;
+    margin: 0 20px;
+    .content {
+      margin: 40px;
+    }
+  }
+  .faq-herader {
+    gap: 4px;
+    :last-child {
+      margin-top: 10px;
+    }
+  }
+  .for-lab {
+    display: none;
+  }
+  .show-mobile-serv {
+    display: block;
+    p {
+      font-size: x-large;
+      font-weight: bold;
+    }
+  }
+  .buttons-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      width: 90%;
+    }
+  }
+  .text-right {
+    text-align: center;
+  }
+
+  .us-container {
+    position: relative;
+    background-image: none;
+  }
+  .show-mobile-image {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  .us-content-container {
+    margin: 0;
+    padding: 10px;
+    margin-top: 160px;
+    p {
+      font-size: large;
+      text-align: center;
+      margin: 0;
+    }
+  }
+  .us-buttons {
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    div {
+      width: 70%;
+    }
+  }
+  .us-content-container-section-2 {
+    margin-top: 50px;
+    margin: 0 50px;
+  }
+  .how-us-title-div {
+    margin-left: 0;
+    padding: 5px 50px;
+    margin-left: 50px;
+  }
+  .content-us {
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-us2 {
+    margin-top: 120px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .oil {
+    position: absolute;
+    bottom: 10px;
+    max-width: max-content;
+    width: 500px;
+    left: -70;
+  }
+  .pattern {
+    z-index: 1000;
+    top: -150;
+  }
+  .right-us {
+    min-width: 100%;
+    box-shadow: rgba(250, 152, 152, 0.3) 0px 1px 2px 0px,
+      rgba(218, 151, 64, 0.15) 0px 2px 6px 2px;
+    padding: 20px 50px;
+    margin: 0 auto;
+    border-radius: 40px;
+  }
+  .right-us-desk {
+    display: none;
+  }
+  .onlyOnMobile {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .explain-txt {
+    width: 100%;
+    text-align: center;
+  }
+  .btm-cards {
+    width: 100%;
+    .card {
+      width: 90%;
+    }
+  }
+  .s3-container {
+    margin: 0;
+  }
+  .byImage {
+    max-width: none;
+  }
+  .headers3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .descs3 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .rows-us {
+    display: flex;
+    flex-direction: column;
+    .row1,
+    .row2 {
+      gap: 50px;
+      flex-direction: column;
+      align-items: center;
+      div {
+        height: 83px;
+        width: 200px;
+        box-shadow: rgba(250, 152, 152, 0.3) 0px 1px 2px 0px,
+          rgba(218, 151, 64, 0.15) 0px 2px 6px 2px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+      }
+    }
+  }
+  .b-content {
+    gap: 10px;
+  }
+  .mobile-btn {
+    width: 145px;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containers4 {
+    display: block;
+    margin-top: 50px;
+
+    .left {
+      width: 100%;
+      padding: 20px;
+    }
+    .pattern {
+      display: none;
+    }
+  }
+  .progress-value {
+    font-size: 20px;
+    top: 70px;
+    left: 50;
+  }
+  .progress-text {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .box {
+    position: relative;
+    left: 0;
+    top: 300px;
   }
 }
