@@ -2,14 +2,14 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex  overflow-hidden ">
+    <div className="flex overflow-hidden ">
       <img
-        className=" absolute -bottom-[1%] -right-14 overflow-hidden"
+        className="img-hero-first absolute -bottom-[1%] -right-14 overflow-hidden"
         src="/bgFrameHome.png"
         alt=""
       />
-      <div className="w-1/2 h-[60vh] flex flex-row mt-16 left-side-home ">
-        <div className=" w-full h-full flex flex-col justify-center items-center">
+      <div className="content-container-hero w-1/2 h-[60vh] flex flex-row mt-16 left-side-home ">
+        <div className="hero-text w-full h-full flex flex-col justify-center items-center">
           <p className="text-5xl font-bold">تحسين أداء محرك سيارتك بسهولة</p>
           <p className="text-5xl font-bold mt-8">
             مع{" "}
@@ -38,7 +38,7 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="z-50 absolute right-0   right-sizde-home">
+        <div className="images-container z-50 absolute right-0 right-sizde-home">
           <img
             className="absolute bottom-0 right-0"
             src="/oilLeftHome.png"

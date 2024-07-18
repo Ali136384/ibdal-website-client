@@ -101,7 +101,7 @@ function page() {
           </div>
         </div>
         <div className="middle w-[60%]">
-          <img src="/jeep.png" alt="" />
+          <img src="/jeep.jpg" alt="" />
         </div>
         <div className="right w-[20%]">
           <div className="card flex gap-4">

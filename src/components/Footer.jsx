@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="mt-[100px] h-[375px] w-full bg-[#FFF8EB] ">
+    <div className="mt-[100px] h-[375px] footer-container w-full bg-[#FFF8EB] ">
       <div className="content-footer flex flex-row justify-center pt-20 mx-[200px] gap-16">
         <div className="slice ">
           <img className="mb-5" src="/logo.png" alt="" />
@@ -19,7 +19,7 @@ function Footer() {
           <p>سياسه الاستخدام والخصوصيه</p>
         </div>
         <div className="slice flex flex-col gap-4">
-          <p className="font-bold mb-6">روابط مهمه</p>
+          <p className="font-bold mb-6">تواصل معنا</p>
           <div className="flex gap-3">
             <p>icon</p>
             <p>25566 Hc 1, Glenallen, Alaska, 99588, USA</p>

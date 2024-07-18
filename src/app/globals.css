@@ -10,7 +10,9 @@
   margin: 0 290px;
   margin-top: 50px;
 }
-
+.mobile-text {
+  display: none;
+}
 @media (max-width: 1300px) {
   .right-sizde-home {
     display: none;
@@ -38,4 +40,198 @@
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+@media (max-width: 991px) {
+  .header-lap {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .hero-text:first-child {
+    text-align: center;
+  }
+  .img-hero-first {
+    display: none;
+  }
+  .images-container {
+    display: nones;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 2rem; /* equivalent to gap-4 in Tailwind */
+    margin-top: 0.5rem; /* equivalent to mt-10 in Tailwind */
+    margin: 10px 20px;
+    margin-top: 50px;
+  }
+  .content-container-hero {
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .why-us {
+    flex-direction: column;
+    .left-why {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .right-why {
+      width: 100%;
+    }
+  }
+  .card-why {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    p {
+      text-align: center;
+    }
+  }
+  .why-us-p {
+    margin: 10px 50px;
+    text-align: center;
+  }
+  .why-us-title {
+    color: #feb021;
+  }
+  .button-start {
+    display: none;
+  }
+  .content-accomplishments-container {
+    display: none;
+  }
+  .why-our-company-head {
+    background: #e8f1fb;
+    width: 60%;
+  }
+  .why-our-company-container {
+    flex-direction: column;
+    gap: 0;
+    .content {
+      gap: 40px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 0 50px;
+      box-shadow: rgba(250, 152, 152, 0.3) 0px 1px 2px 0px,
+        rgba(218, 151, 64, 0.15) 0px 2px 6px 2px;
+      padding: 30px;
+      border-radius: 10px;
+      .content-slice {
+        gap: 14px;
+      }
+    }
+  }
+  .car-image-our-company {
+    position: relative;
+  }
+  .vectore-img {
+    top: 0;
+    position: relative;
+    width: 60%;
+    height: 100%;
+  }
+
+  .parent-why-company {
+    height: auto;
+  }
+
+  .images-containerWhyUs {
+    width: max-content;
+    display: flex;
+  }
+  .vectore-img-car {
+    position: absolute;
+    height: 100%;
+  }
+  .vectore-img-can {
+    display: none;
+  }
+  .mobile-text {
+    display: block;
+    margin: 0 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 40px;
+  }
+  .header-whyus {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .right-whuus {
+    width: 100%;
+  }
+  .vectore-img2 {
+    margin-left: 60px;
+    height: 10%;
+  }
+  .icon-div {
+    width: 80px;
+    height: 56px;
+    border-radius: 20px;
+    background: #ecf5ff;
+  }
+  .contet-div {
+    width: 400px;
+    gap: 2px;
+  }
+  .ourProductsContainer {
+    padding: 10px 20px;
+    .ourProductsHeader {
+      align-items: center;
+    }
+    .muntacatna {
+      font-size: 40px;
+    }
+  }
+  .product-card {
+    width: 100%;
+  }
+  .ourservices-mobil-sub-text {
+    width: 80%;
+    text-align: center;
+    margin: 20 auto;
+  }
+  .customer-said-contianer {
+    margin: 150px 50px;
+  }
+  .content-footer {
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container {
+    height: max-content;
+    padding-bottom: 100px;
+  }
+  .slice {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    p {
+      font-weight: bold;
+    }
+  }
 }

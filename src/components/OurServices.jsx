@@ -5,7 +5,7 @@ function OurServices() {
     <div className="mt-20 min-h-[400px]">
       <div className="flex justify-center flex-col">
         <p className="font-bold text-5xl text-center">خدماتنا</p>
-        <p className=" opacity-70 font-bold text-center mt-10">
+        <p className=" opacity-70 font-bold text-center mt-10 ourservices-mobil-sub-text">
           نقدم لك خدمات تغيير الزيوت والصيانة بمهنية وجودة عالية لتحافظ على أداء
           سيارتك في أفضل حالاتها
         </p>

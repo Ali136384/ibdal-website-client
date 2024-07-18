@@ -5,7 +5,7 @@ function page() {
     <>
       <div
         style={{
-          backgroundImage: 'url("/contact_2.webp")',
+          backgroundImage: 'url("/contact_2.jpg")',
         }}
         className="hero-conteact w-full h-screen bg-no-repeat bg-cover relative"
       >
@@ -80,7 +80,7 @@ function page() {
             <div className="input-container2 flex flex-col w-full">
               <label htmlFor="">الاسم الكامل</label>
               <input
-                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full"
+                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full  outline-none"
                 type="text"
                 placeholder="فلان الفلاني"
               />
@@ -88,7 +88,7 @@ function page() {
             <div className="input-container2 flex flex-col w-full">
               <label htmlFor="">الاسم الكامل</label>
               <input
-                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full"
+                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full outline-none"
                 type="text"
                 placeholder="فلان الفلاني"
               />
@@ -98,7 +98,7 @@ function page() {
             <div className="input-container2 flex flex-col w-full">
               <label htmlFor="">الاسم الكامل</label>
               <input
-                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full"
+                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full outline-none"
                 type="text"
                 placeholder="فلان الفلاني"
               />
@@ -106,14 +106,14 @@ function page() {
             <div className="input-container2 flex flex-col w-full">
               <label htmlFor="">الاسم الكامل</label>
               <input
-                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full"
+                className="border-2 border-[#eee] py-4 px-4 mt-1 rounded-full w-full outline-none"
                 type="text"
                 placeholder="فلان الفلاني"
               />
             </div>
           </div>
           <textarea
-            className=" resize-none px-3 py-3 w-full border-[#eee] border-2 mt-10 h-[140px] rounded-3xl"
+            className=" resize-none px-3 py-3 w-full border-[#eee] border-2 mt-10 h-[140px] rounded-3xl  outline-none"
             placeholder="اكتب رسالتك ... "
             dir="rtl"
           ></textarea>

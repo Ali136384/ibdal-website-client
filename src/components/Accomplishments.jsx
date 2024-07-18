@@ -2,7 +2,7 @@ import React from "react";
 
 function Accomplishments() {
   return (
-    <div className="mt-32 bg-[#FFF3DE] h-[300px] ">
+    <div className=" content-accomplishments-container  mt-32 bg-[#FFF3DE] h-[300px] ">
       <div className="content-accomplishments flex justify-center items-center h-full">
         <div className="card flex px-20 border-r-2 border-r-gray-400 border-dotted gap-3 items-center">
           <div className="icon">

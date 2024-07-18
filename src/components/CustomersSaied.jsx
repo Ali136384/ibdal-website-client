@@ -7,18 +7,18 @@ function CustomersSaied() {
 
   const scrollLeft = () => {
     if (containerRef.current) {
-      containerRef.current.scrollBy({ left: -540, behavior: "smooth" });
+      containerRef.current.scrollBy({ left: -440, behavior: "smooth" });
     }
   };
 
   const scrollRight = () => {
     if (containerRef.current) {
-      containerRef.current.scrollBy({ left: 540, behavior: "smooth" });
+      containerRef.current.scrollBy({ left: 440, behavior: "smooth" });
     }
   };
 
   return (
-    <div className="mt-[100px] mx-[120px]">
+    <div className="customer-said-contianer mt-[100px] mx-[120px]">
       <div
         className="cards-custo flex gap-2 overflow-x-auto hide-scrollbar"
         ref={containerRef}
