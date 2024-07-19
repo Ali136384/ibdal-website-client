@@ -1,6 +1,20 @@
-import React from "react";
-
+"use client";
+import React, { useEffect } from "react";
+import axios from "axios";
 function Hero() {
+  const getData = async () => {
+    try {
+      const res = await axios.get(
+        "https://server-beta-two-82.vercel.app/gtabout"
+      );
+      console.log(res.data);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  useEffect(() => {
+    getData();
+  }, []);
   return (
     <div className="flex overflow-hidden ">
       <img
