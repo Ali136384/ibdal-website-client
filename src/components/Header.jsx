@@ -3,7 +3,9 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Header = () => {
-  const [activeItem, setActiveItem] = useState(null);
+  const [activeItem, setActiveItem] = useState(1);
+
+  const [burgerOpen, setBurgerOpen] = useState(false);
 
   useEffect(() => {
     // Get active item from sessionStorage on component mount
@@ -52,7 +54,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div className="relative">
       <div className="header-lap mx-10 flex flex-row justify-between items-center z-[100] bg-transparent">
         <div>
           <img className="h-[94px] w-[154px] z-10" src="/logo.png" alt="logo" />
@@ -72,9 +74,21 @@ const Header = () => {
           ))}
         </div>
       </div>
-      <div className="header-mobile hidden py-4 px-6  w-full bg-red-50 items-center justify-between">
+      <div className="header-mobile relative hidden py-4 px-6  w-full bg-red-50 items-center justify-between ">
         <img className="h-[46px] w-[60px] z-10" src="/logo.png" alt="logo" />
-        <div className="burger">burger</div>
+        <div
+          onClick={() => setBurgerOpen(!burgerOpen)}
+          className="burger cursor-pointer"
+        >
+          burger
+        </div>
+      </div>
+      <div
+        className={`burger-content hidden absolute bg-red-600 w-full duration-500 flex-col ${
+          burgerOpen ? "h-[100vh] overflow-y-auto" : "h-[0px] overflow-hidden"
+        } z-50`}
+      >
+        <p>1</p>
       </div>
     </div>
   );

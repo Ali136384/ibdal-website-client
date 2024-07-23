@@ -139,6 +139,7 @@
       border-radius: 10px;
       .content-slice {
         gap: 14px;
+        max-width: 100%;
       }
     }
   }
@@ -529,5 +530,11 @@
   }
   .right-easialy {
     align-items: center;
+  }
+  .productsContainer {
+    margin: 0;
+  }
+  .burger-content {
+    display: block;
   }
 }

@@ -65,7 +65,30 @@ function CustomersSaied() {
             className="absolute h-full w-full z-[999] cursor-pointer"
           ></div>
           <div className="bg-black w-[46px] h-[43px] rounded-full flex justify-center items-center">
-            <p className="text-white">icon</p>
+            <p className="text-white">
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.1179 6.91821L1.04993 6.91821"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M6.396 12.2642L1.05 6.91817L6.396 1.57217"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </p>
           </div>
           <span className="font-bold text-lg">السابق</span>
         </div>
@@ -76,7 +99,23 @@ function CustomersSaied() {
             className="absolute h-full w-full z-[999] cursor-pointer"
           ></div>
           <div className="bg-primary w-[46px] h-[43px] rounded-full flex justify-center items-center">
-            <p>icon</p>
+            <p>
+              <svg
+                width="17"
+                height="14"
+                viewBox="0 0 17 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.02881 6.85352H15.1177M15.1177 6.85352L9.35407 1.50757M15.1177 6.85352L9.35407 12.1996"
+                  stroke="#141414"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </p>
           </div>
           <span className="font-bold text-lg">التالي</span>
         </div>

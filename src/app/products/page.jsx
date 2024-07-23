@@ -40,13 +40,13 @@ function page() {
     2,
   ];
   return (
-    <div className="mx-20">
+    <div className="  mx-20">
       <p className="text-right font-bold text-5xl mt-10">منتجاتنا</p>
       <div className="content mt-20 flex flex-wrap gap-8 justify-center">
         {data.map((ele, index) => {
           return (
             <React.Fragment key={index}>
-              <div className="product-card w-[30%] bg-[#FFEAC4] rounded-xl min-h-[416px] gap-6 flex flex-col justify-center items-center">
+              <div className="product-card w-[30%] bg-[#cbffc41a] shadow-xl rounded-xl min-h-[416px] gap-6 flex flex-col justify-center items-center">
                 <img
                   className="h-[220px] rounded-xl"
                   src="/oilcan.avif"

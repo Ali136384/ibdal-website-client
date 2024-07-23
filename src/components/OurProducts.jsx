@@ -5,18 +5,41 @@ function OurProducts() {
   return (
     <div className="ourProductsContainer mt-[190px] px-20">
       <div className="ourProductsHeader flex justify-between">
-        <div className="flex flex-row gap-3">
-          <span>Icon</span>
+        <div className="flex flex-row gap-3 items-center">
+          <span>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8H15"
+                stroke="black"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M8 1L1 8L8 15"
+                stroke="black"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
           <p className="text-md font-bold">شاهد الجميع</p>
         </div>
         <div className="text-5xl font-bold muntacatna">منتجاتنا</div>
       </div>
-      <div className="mx-20">
+      <div className="productsContainer mx-20">
         <div className="content mt-20 flex flex-wrap gap-8 justify-center">
           {data.map((ele, index) => {
             return (
               <React.Fragment key={index}>
-                <div className="product-card w-[30%] bg-[#FFEAC4] rounded-xl min-h-[416px] gap-6 flex flex-col justify-center items-center">
+                <div className="product-card w-[30%] bg-[#cbffc41a] shadow-xl rounded-xl min-h-[416px] gap-6 flex flex-col justify-center items-center">
                   <img
                     className="h-[220px] rounded-xl"
                     src="/oilcan.avif"
