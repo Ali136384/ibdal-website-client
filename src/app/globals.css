@@ -327,7 +327,7 @@
       width: 90%;
     }
   }
-  .text-right {
+  .text-right-products {
     text-align: center;
   }
 
@@ -535,6 +535,29 @@
     margin: 0;
   }
   .burger-content {
-    display: block;
+    display: flex;
+  }
+  .branchs-container {
+    display: flex;
+    background: white;
+    .right {
+      display: none;
+    }
+    .left {
+      width: 100%;
+      .hero-content-container {
+        margin: 10px;
+        p {
+          font-size: 35px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .botton-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
   }
 }

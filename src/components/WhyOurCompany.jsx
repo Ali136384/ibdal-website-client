@@ -3,32 +3,8 @@ import { Icon } from "@iconify/react";
 function WhyUs() {
   return (
     <div className="why-us mt-[150px] flex gap-10 justify-center items-center">
-      <div className="left-why w-[25%]">
-        <p className="why-us-title font-bold text-4xl">لماذا شركتنا؟</p>
-        <p className="why-us-p mt-4 opacity-60 font-bold">
-          ونحن ملتزمون بتزويد عملائنا استثنائية الخدمة، والأسعار التنافسية،
-          ومجموعة واسعة من.
-        </p>
-        <button className="button-start text-white font-bold h-[53px] w-[160px] bg-primary mt-4 rounded-xl flex justify-center items-center gap-3">
-          ابدا الان
-          <span>
-            <svg
-              width="15"
-              height="15"
-              viewBox="0 0 15 15"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14.2808 0.379883H5.72525C5.51029 0.379883 5.33635 0.553826 5.33635 0.768784C5.33635 0.983742 5.51029 1.15768 5.72525 1.15768H13.342L0.783619 13.7161C0.631697 13.868 0.631697 14.1141 0.783619 14.266C0.859562 14.3419 0.959093 14.3799 1.05859 14.3799C1.15808 14.3799 1.25758 14.3419 1.33356 14.266L13.8919 1.70758V9.32435C13.8919 9.53931 14.0658 9.71325 14.2808 9.71325C14.4958 9.71325 14.6697 9.53931 14.6697 9.32435V0.768784C14.6697 0.553826 14.4957 0.379883 14.2808 0.379883Z"
-                fill="white"
-              />
-            </svg>
-          </span>
-        </button>
-      </div>
       <div className="right-why  w-[55%] flex flex-wrap gap-6 ">
-        <div className="card-why w-[48%] flex flex-col gap-2">
+        <div className="card-why w-[48%] flex flex-col gap-2 justify-center items-center">
           <p>
             <svg
               width="60"
@@ -125,12 +101,12 @@ function WhyUs() {
             </svg>
           </p>
           <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
+          <p className=" text-center">
             بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
             المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
           </p>
         </div>
-        <div className="card-why w-[48%]  flex flex-col gap-2">
+        <div className="card-why w-[48%] flex flex-col gap-2 justify-center items-center">
           <p>
             <svg
               width="61"
@@ -224,12 +200,12 @@ function WhyUs() {
             </svg>
           </p>
           <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
+          <p className=" text-center">
             بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
             المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
           </p>
         </div>
-        <div className="card-why w-[48%]  flex flex-col gap-2">
+        <div className="card-why w-[48%] flex flex-col gap-2 justify-center items-center">
           <p>
             <svg
               width="60"
@@ -330,12 +306,12 @@ function WhyUs() {
             </svg>{" "}
           </p>
           <p className="text-xl font-bold">عروض مميزه</p>
-          <p>
+          <p className=" text-center">
             بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
             المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
           </p>
         </div>
-        <div className="card-why w-[48%]  flex flex-col gap-2">
+        <div className="card-why w-[48%] flex flex-col gap-2 justify-center items-center">
           <p>
             <svg
               width="61"
@@ -393,6 +369,34 @@ function WhyUs() {
             بأقل تكلفة مع عروضنا الحصرية على زيوت المحركات. لا تفوت فرصة توفير
             المال والتأكد من كفاءة محرك سيارتك. قم بزيارتنا اليوم!
           </p>
+        </div>
+      </div>
+      <div className="left-why w-[25%]">
+        <p className="why-us-title font-bold text-4xl text-right">
+          لماذا شركتنا؟
+        </p>
+        <p className="why-us-p mt-4 opacity-60 font-bold text-right">
+          ونحن ملتزمون بتزويد عملائنا استثنائية الخدمة، والأسعار التنافسية،
+          ومجموعة واسعة من.
+        </p>
+        <div className=" flex justify-end">
+          <button className="button-start text-white font-bold h-[53px] w-[160px] bg-primary mt-4 rounded-xl flex justify-center items-center gap-3">
+            ابدا الان
+            <span>
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2808 0.379883H5.72525C5.51029 0.379883 5.33635 0.553826 5.33635 0.768784C5.33635 0.983742 5.51029 1.15768 5.72525 1.15768H13.342L0.783619 13.7161C0.631697 13.868 0.631697 14.1141 0.783619 14.266C0.859562 14.3419 0.959093 14.3799 1.05859 14.3799C1.15808 14.3799 1.25758 14.3419 1.33356 14.266L13.8919 1.70758V9.32435C13.8919 9.53931 14.0658 9.71325 14.2808 9.71325C14.4958 9.71325 14.6697 9.53931 14.6697 9.32435V0.768784C14.6697 0.553826 14.4957 0.379883 14.2808 0.379883Z"
+                  fill="white"
+                />
+              </svg>
+            </span>
+          </button>
         </div>
       </div>
     </div>

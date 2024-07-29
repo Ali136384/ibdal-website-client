@@ -41,7 +41,7 @@ function page() {
   ];
   return (
     <div className="  mx-20">
-      <p className="text-right font-bold text-5xl mt-10">منتجاتنا</p>
+      <p className="text-right-products font-bold text-5xl mt-10">منتجاتنا</p>
       <div className="content mt-20 flex flex-wrap gap-8 justify-center">
         {data.map((ele, index) => {
           return (
@@ -57,8 +57,9 @@ function page() {
                   <p className=" text-sm font-bold">Route 5w40 SN- CF</p>
                 </div>
                 <div className="bg-white w-[70%] flex justify-between py-3 rounded-xl px-5 shadow-sm shadow-orange-200">
-                  <p className=" self-center text-center w-full">$4.99</p>
-                  <span className=" self-start">+</span>
+                  <p className=" self-center text-center w-full font-bold">
+                    $4.99
+                  </p>
                 </div>
               </div>
             </React.Fragment>
